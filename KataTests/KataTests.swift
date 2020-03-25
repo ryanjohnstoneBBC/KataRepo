@@ -11,24 +11,35 @@ import XCTest
 
 class KataTests: XCTestCase {
 
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testCanGetPriceOfA() {
+        let cart = ShoppingCart()
+        cart.add("A")
+        let total = cart.checkout()
+
+        XCTAssertEqual(total, 50)
     }
 
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testCanGetPriceOfB() {
+        let cart = ShoppingCart()
+        cart.add("B")
+        let total = cart.checkout()
+
+        XCTAssertEqual(total, 30)
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+}
+
+class ShoppingCart {
+    var item : String?
+    func add(_ item: String) {
+        self.item = item
     }
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func checkout() -> Int {
+        if self.item == "A" {
+            return 50
         }
-    }
 
+        return 30
+    }
 }
