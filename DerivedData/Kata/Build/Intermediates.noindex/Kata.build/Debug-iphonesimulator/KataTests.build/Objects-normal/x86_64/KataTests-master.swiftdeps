@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
-options: "9caa2be658d1d68316dc39493572d6c3"
-build_time: [1585147296, 876028000]
-inputs:
-  "/Users/johnsr100/Work/Code/iOS/Kata/KataTests/KataTests.swift": !dirty [1585147296, 699990717]
