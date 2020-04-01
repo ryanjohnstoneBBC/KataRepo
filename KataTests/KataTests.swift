@@ -11,35 +11,5 @@ import XCTest
 
 class KataTests: XCTestCase {
 
-    func testCanGetPriceOfA() {
-        let cart = ShoppingCart()
-        cart.add("A")
-        let total = cart.checkout()
 
-        XCTAssertEqual(total, 50)
-    }
-
-    func testCanGetPriceOfB() {
-        let cart = ShoppingCart()
-        cart.add("B")
-        let total = cart.checkout()
-
-        XCTAssertEqual(total, 30)
-    }
-
-}
-
-class ShoppingCart {
-    var item : String?
-    func add(_ item: String) {
-        self.item = item
-    }
-
-    func checkout() -> Int {
-        if self.item == "A" {
-            return 50
-        }
-
-        return 30
-    }
 }

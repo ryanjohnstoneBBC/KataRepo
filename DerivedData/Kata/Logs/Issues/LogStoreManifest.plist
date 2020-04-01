@@ -5,7 +5,64 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>9A8A448D-E357-4596-BF4D-F0AD65B02666</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
+			<key>fileName</key>
+			<string>9A8A448D-E357-4596-BF4D-F0AD65B02666.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>signature</key>
+			<string>KataTests-axycfqjmseswjshczccbtodkgjnh</string>
+			<key>timeStartedRecording</key>
+			<real>606840096.86917496</real>
+			<key>timeStoppedRecording</key>
+			<real>606840097.47700596</real>
+			<key>title</key>
+			<string>Build target KataTests</string>
+			<key>uniqueIdentifier</key>
+			<string>9A8A448D-E357-4596-BF4D-F0AD65B02666</string>
+		</dict>
+		<key>FA943557-C077-471D-8D55-A149C0C9CFC9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>FA943557-C077-471D-8D55-A149C0C9CFC9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Kata-axycfqjmseswjshczccbtodkgjnh</string>
+			<key>timeStartedRecording</key>
+			<real>606839767.90296102</real>
+			<key>timeStoppedRecording</key>
+			<real>606839768.31256902</real>
+			<key>title</key>
+			<string>Build target Kata</string>
+			<key>uniqueIdentifier</key>
+			<string>FA943557-C077-471D-8D55-A149C0C9CFC9</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>

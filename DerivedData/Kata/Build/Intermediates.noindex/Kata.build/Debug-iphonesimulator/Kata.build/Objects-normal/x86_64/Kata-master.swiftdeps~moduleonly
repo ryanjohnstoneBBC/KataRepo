@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "45b46b45576bb4483c1ad90edb37ff18"
+build_time: [1585146117, 582113000]
+inputs:
+  "/Users/johnsr100/Work/Code/iOS/Kata/Kata/ViewController.swift": [1585146112, 96104184]
+  "/Users/johnsr100/Work/Code/iOS/Kata/Kata/AppDelegate.swift": [1585146112, 83044308]
+  "/Users/johnsr100/Work/Code/iOS/Kata/Kata/SceneDelegate.swift": [1585146112, 93656694]
