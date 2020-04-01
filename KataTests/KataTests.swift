@@ -7,9 +7,22 @@
 //
 
 import XCTest
-@testable import Kata
 
 class KataTests: XCTestCase {
+    
+    func CheckoutReturnsRightPriceForA() {
+        let checkout = Checkout()
+        
+        let price = checkout.getTotalPrice()
+        
+        XCTAssertEqual(50, price)
+    }
+    
+    class Checkout {
+        func getTotalPrice() -> Int {
+            return 0
+        }
+    }
 
 
 }
